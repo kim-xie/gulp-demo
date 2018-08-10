@@ -9,7 +9,7 @@ var gulp = require('gulp'),                  //gulp基础库
     jshint = require('gulp-jshint'),         //js检查
     rename = require('gulp-rename'),         //文件重命名
     del = require('del'),                    //清空文件夹
-    notify = require('gulp-notify'),           //提示
+    notify = require('gulp-notify'),         //提示
     less = require('gulp-less');             //less处理
 
 //定义一个testLess任务（自定义任务名称）
